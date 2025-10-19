@@ -1,0 +1,21 @@
+[INFO   ] Logger: Record log in /home/amehes/python/KivyAdventures/conf/logs/kivy_25-10-19_20.txt
+[INFO   ] Kivy: v2.3.1
+[INFO   ] Kivy: Installed at "/home/amehes/python/kivy_venv/lib/python3.13/site-packages/kivy/__init__.py"
+[INFO   ] Python: v3.13.5 (main, Jun 25 2025, 18:55:22) [GCC 14.2.0]
+[INFO   ] Python: Interpreter at "/home/amehes/python/kivy_venv/bin/python"
+[INFO   ] Logger: Purge log fired. Processing...
+[INFO   ] Logger: Purge finished!
+[INFO   ] Factory: 195 symbols loaded
+[INFO   ] Image: Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+[INFO   ] Text: Provider: sdl2
+[CRITICAL] App.root must be an _instance_ of Widget
+[WARNING] stderr: Traceback (most recent call last):
+[WARNING] stderr:   File "/home/amehes/python/KivyAdventures/ablak.py", line 40, in <module>
+[WARNING] stderr:     TestApp().run()
+[WARNING] stderr:     ~~~~~~~~~~~~~^^
+[WARNING] stderr:   File "/home/amehes/python/kivy_venv/lib/python3.13/site-packages/kivy/app.py", line 955, in run
+[WARNING] stderr:     self._run_prepare()
+[WARNING] stderr:     ~~~~~~~~~~~~~~~~~^^
+[WARNING] stderr:   File "/home/amehes/python/kivy_venv/lib/python3.13/site-packages/kivy/app.py", line 931, in _run_prepare
+[WARNING] stderr:     raise Exception('Invalid instance in App.root')
+[WARNING] stderr: Exception: Invalid instance in App.root
