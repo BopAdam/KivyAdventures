@@ -1,0 +1,51 @@
+[INFO   ] Logger: Record log in C:\Users\User\Desktop\PyKivy/conf\logs\kivy_25-10-19_6.txt
+[INFO   ] deps: Successfully imported "kivy_deps.angle" 0.4.0
+[INFO   ] deps: Successfully imported "kivy_deps.glew" 0.3.1
+[INFO   ] deps: Successfully imported "kivy_deps.sdl2" 0.8.0
+[INFO   ] Kivy: v2.3.1
+[INFO   ] Kivy: Installed at "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\kivy\__init__.py"
+[INFO   ] Python: v3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)]
+[INFO   ] Python: Interpreter at "C:\Users\User\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\python.exe"
+[INFO   ] Logger: Purge log fired. Processing...
+[INFO   ] Logger: Purge finished!
+[INFO   ] Factory: 195 symbols loaded
+[INFO   ] Image: Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+[INFO   ] Text: Provider: sdl2
+[INFO   ] Window: Provider: sdl2
+[INFO   ] GL: Using the "OpenGL" graphics system
+[INFO   ] GL: GLEW initialization succeeded
+[INFO   ] GL: Backend used <glew>
+[INFO   ] GL: OpenGL version <b'4.6.0 NVIDIA 581.57'>
+[INFO   ] GL: OpenGL vendor <b'NVIDIA Corporation'>
+[INFO   ] GL: OpenGL renderer <b'NVIDIA GeForce GTX 1650/PCIe/SSE2'>
+[INFO   ] GL: OpenGL parsed version: 4, 6
+[INFO   ] GL: Shading version <b'4.60 NVIDIA'>
+[INFO   ] GL: Texture max size <32768>
+[INFO   ] GL: Texture max units <32>
+[INFO   ] Window: auto add sdl2 input provider
+[INFO   ] Window: virtual keyboard not allowed, single mode, not docked
+[WARNING] stderr: Traceback (most recent call last):
+[WARNING] stderr:   File "kivy\\_event.pyx", line 235, in kivy._event.EventDispatcher.__init__
+[WARNING] stderr: TypeError: object.__init__() takes exactly one argument (the instance to initialize)
+[WARNING] stderr: 
+[WARNING] stderr: The above exception was the direct cause of the following exception:
+[WARNING] stderr: 
+[WARNING] stderr: Traceback (most recent call last):
+[WARNING] stderr:   File "c:\Users\User\Desktop\PyKivy\ablak.py", line 24, in <module>
+[WARNING] stderr:     TestApp().run()
+[WARNING] stderr:     ~~~~~~~~~~~~~^^
+[WARNING] stderr:   File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\kivy\app.py", line 955, in run
+[WARNING] stderr:     self._run_prepare()
+[WARNING] stderr:     ~~~~~~~~~~~~~~~~~^^
+[WARNING] stderr:   File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\kivy\app.py", line 925, in _run_prepare
+[WARNING] stderr:     root = self.build()
+[WARNING] stderr:   File "c:\Users\User\Desktop\PyKivy\ablak.py", line 21, in build
+[WARNING] stderr:     return Label(text = 'Hello Vilag', font_size = 60, italic= True, under_line = True, color=(1, 0.5, 0,1))
+[WARNING] stderr:   File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\kivy\uix\label.py", line 319, in __init__
+[WARNING] stderr:     super(Label, self).__init__(**kwargs)
+[WARNING] stderr:     ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+[WARNING] stderr:   File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\kivy\uix\widget.py", line 357, in __init__
+[WARNING] stderr:     super(Widget, self).__init__(**kwargs)
+[WARNING] stderr:     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+[WARNING] stderr:   File "kivy\\_event.pyx", line 238, in kivy._event.EventDispatcher.__init__
+[WARNING] stderr: TypeError: Properties ['under_line'] passed to __init__ may not be existing property names. Valid properties are ['anchors', 'base_direction', 'bold', 'center', 'center_x', 'center_y', 'children', 'cls', 'color', 'disabled', 'disabled_color', 'disabled_outline_color', 'ellipsis_options', 'font_blended', 'font_context', 'font_direction', 'font_family', 'font_features', 'font_hinting', 'font_kerning', 'font_name', 'font_script_name', 'font_size', 'halign', 'height', 'ids', 'is_shortened', 'italic', 'limit_render_to_text_bbox', 'line_height', 'markup', 'max_lines', 'mipmap', 'motion_filter', 'opacity', 'outline_color', 'outline_width', 'padding', 'padding_x', 'padding_y', 'parent', 'pos', 'pos_hint', 'refs', 'right', 'shorten', 'shorten_from', 'size', 'size_hint', 'size_hint_max', 'size_hint_max_x', 'size_hint_max_y', 'size_hint_min', 'size_hint_min_x', 'size_hint_min_y', 'size_hint_x', 'size_hint_y', 'split_str', 'strikethrough', 'strip', 'text', 'text_language', 'text_size', 'texture', 'texture_size', 'top', 'underline', 'unicode_errors', 'valign', 'width', 'x', 'y']
