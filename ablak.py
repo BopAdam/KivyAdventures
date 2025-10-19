@@ -18,7 +18,8 @@ from kivy.uix.label import Label
 
 class TestApp(App):
     def build(self):
-        return Label(text = 'Hello Vilag', font_size = 60, italic= True, underline = True, color=(1, 0.5, 0,1))
+        return Label(text = '[color=ff0000]Hello[/color][color=00ff00]Wolrd[/color]', font_size = 60, italic= True, underline = True, 
+                     color=(0.7, 0.5, 0.2,1), bold = True,font_name="./fonts/QuirkyRobot.ttf",markup=True)
 
     
-TestApp().run() #### OOOOO bazdmegggg#### aaa
+TestApp().run()
